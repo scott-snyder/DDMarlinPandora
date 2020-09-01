@@ -73,7 +73,10 @@ pandora::StatusCode DDCaloHitCreator::CreateCaloHits(const EVENT::LCEvent *const
 
   //fg: there cannot be any reasonable default for this string - so we set it to sth. that will cause an exception in case 
   //    the cellID encoding string is not in the collection: 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
   UTIL::CellIDDecoder<CalorimeterHit>::setDefaultEncoding("undefined_cellID_encoding:100");
+#pragma GCC diagnostic pop
   
     PANDORA_RETURN_RESULT_IF(pandora::STATUS_CODE_SUCCESS, !=, this->CreateECalCaloHits(pLCEvent));
     PANDORA_RETURN_RESULT_IF(pandora::STATUS_CODE_SUCCESS, !=, this->CreateHCalCaloHits(pLCEvent));

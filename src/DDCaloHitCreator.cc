@@ -357,6 +357,7 @@ pandora::StatusCode DDCaloHitCreator::CreateMuonCaloHits(const EVENT::LCEvent *c
                     {
                       std::cout<<"BIG WARNING: CANNOT HANDLE PLUG HITS (no plug in CLIC model), DO NOTHING!"<<std::endl;
 //                         this->GetEndCapCaloHitProperties(pCaloHit, plugLayers, caloHitParameters, absorberCorrection);
+                      continue;
                     }
                     else if (isInBarrelRegion)
                     {

@@ -1,0 +1,6 @@
+Bottom: e33ec1b1bec5c64c27a159a940d1e64522a260e4
+Top:    ceab26ed4858529b0ffd1917763c4c3ba178d654
+Author: scott snyder <sss@karma>
+Date:   2020-09-01 12:02:39 -0400
+
+Suppress warnings.

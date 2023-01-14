@@ -1,0 +1,6 @@
+Bottom: ceab26ed4858529b0ffd1917763c4c3ba178d654
+Top:    bb7f1b9e4d517325cd5140082606e4366962909b
+Author: scott snyder <sss@karma>
+Date:   2021-01-15 15:28:08 -0500
+
+Avoid error messages for plug hits.

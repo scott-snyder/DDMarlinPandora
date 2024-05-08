@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "d6e45f633c50bea1e9cf0de644b4c39236c50af7",
-  "head": "ce62760431602b2e7163549b5bc5bb11acbc4b44",
-  "applied": [
+  "prev": "76174b3d754a3459b93c46f9c89ecfde6dd9afc2",
+  "head": "9dcf11e92c6426e334bdd6d3566079e335d99ed8",
+  "applied": [],
+  "unapplied": [
     "gitignore",
     "warn",
     "plug"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "gitignore": {

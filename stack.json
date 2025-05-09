@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "82ee08f068b8f4c1217251da8896549f2cf2328c",
-  "head": "17f63c0cd0e0a25873f7e9565b88b64c8f7a70a7",
+  "prev": "b7c1637b3bb735d955a31c85c9ed250a35ec77d2",
+  "head": "b540e63603fee299d37074795b665875785baa47",
   "applied": [
     "gitignore",
-    "plug"
+    "plug",
+    "clang"
   ],
   "unapplied": [],
   "hidden": [],
@@ -14,6 +15,9 @@
     },
     "plug": {
       "oid": "17f63c0cd0e0a25873f7e9565b88b64c8f7a70a7"
+    },
+    "clang": {
+      "oid": "b540e63603fee299d37074795b665875785baa47"
     }
   }
 }

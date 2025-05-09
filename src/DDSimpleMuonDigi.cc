@@ -242,10 +242,11 @@ float DDSimpleMuonDigi::computeHitTime(const EVENT::SimCalorimeterHit* h) const 
   for (unsigned int c = 0; c < nContribs; ++c) {
     timeToEnergyMapping.push_back({h->getTimeCont(c), h->getEnergyCont(c)});
   }
-  std::sort(timeToEnergyMapping.begin(), timeToEnergyMapping.end(),
-            [this](entry_type& lhs, entry_type& rhs) { return lhs.first < rhs.first; });
-  float energySum = 0.f;
-  for (auto& entry : timeToEnergyMapping) {
+  std::sort(timeToEnergyMapping.begin(), timeToEnergyMapping.end(), [](entry_type &lhs, entry_type &rhs){
+      return lhs.first < rhs.first ;
+  }) ;
+  float energySum = 0.f ;
+  for(auto &entry : timeToEnergyMapping ) {
     energySum += entry.second * _calibrCoeffMuon;
     if (energySum > _timeThresholdMuon) {
       return entry.first;

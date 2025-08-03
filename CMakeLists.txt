@@ -1,13 +1,16 @@
 ########################################################
 # cmake file for building DDMarlinPandora
 # @author Jan Engels, DESY
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.2 FATAL_ERROR)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10 FATAL_ERROR)
 ########################################################
 
 
 # project name
 PROJECT( DDMarlinPandora )
 
+cmake_policy(SET CMP0074 NEW)
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
 
 # project version# continuing from MarlinPandora version 2.0.0 revision 1934
 SET( DDMarlinPandora_VERSION_MAJOR 0 )

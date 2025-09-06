@@ -41,6 +41,8 @@
 
 #include <cstdlib>
 
+using namespace lcio;
+
 DDPandoraPFANewProcessor aDDPandoraPFANewProcessor;
 
 double getFieldFromCompact() {

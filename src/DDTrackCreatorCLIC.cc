@@ -30,6 +30,8 @@
 #include <cmath>
 #include <limits>
 
+using namespace lcio;
+
 // forward declarations. See in DDPandoraPFANewProcessor.cc
 std::vector<double> getTrackingRegionExtent();
 

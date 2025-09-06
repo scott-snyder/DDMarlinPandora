@@ -25,7 +25,10 @@
 #include "DD4hep/DD4hepUnits.h"
 #include "DD4hep/Detector.h"
 
+using namespace lcio;
+
 // forward declarations. See in DDPandoraPFANewProcessor.cc
+
 double getFieldFromCompact();
 
 DDMCParticleCreator::DDMCParticleCreator(const Settings& settings, const pandora::Pandora* const pPandora)

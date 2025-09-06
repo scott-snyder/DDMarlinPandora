@@ -34,6 +34,8 @@
 #include <algorithm>
 #include <cmath>
 
+using namespace lcio;
+
 DDPfoCreator::DDPfoCreator(const Settings& settings, const pandora::Pandora* const pPandora)
     : m_settings(settings), m_pandora(*pPandora) {}
 

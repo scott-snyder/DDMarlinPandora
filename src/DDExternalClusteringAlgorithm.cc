@@ -15,6 +15,8 @@
 
 #include "Pandora/AlgorithmHeaders.h"
 
+using namespace lcio;
+
 using namespace pandora;
 
 DDExternalClusteringAlgorithm::DDExternalClusteringAlgorithm() : m_flagClustersAsPhotons(true) {}

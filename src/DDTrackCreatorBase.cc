@@ -30,6 +30,8 @@
 #include <cmath>
 #include <limits>
 
+using namespace lcio;
+
 // forward declaration
 std::vector<double> getTrackingRegionExtent();
 

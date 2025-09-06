@@ -29,6 +29,8 @@
 #include "DD4hep/DetType.h"
 #include "DD4hep/DetectorSelector.h"
 
+using namespace lcio;
+
 
 DDTrackCreatorILD::DDTrackCreatorILD(const Settings &settings, const pandora::Pandora *const pPandora)
   :

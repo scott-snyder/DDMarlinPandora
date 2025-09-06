@@ -23,6 +23,8 @@
 #include <cmath>
 #include <limits>
 
+using namespace lcio;
+
 //forward declarations. See in DDPandoraPFANewProcessor.cc
 
 // dd4hep::rec::LayeredCalorimeterData * getExtension(std::string detectorName);

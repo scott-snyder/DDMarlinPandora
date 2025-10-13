@@ -1,3 +1,27 @@
+# v00-14
+
+* 2025-10-10 Thomas Madlener ([PR#38](https://github.com/iLCSoft/DDMarlinPandora/pull/38))
+  -  Make sure to access a decoder with existing keys to avoid having different behavior depending on the Verbosity under which the processor is run.
+    - **This mainly affects ILD detectors since they use a slightly different CellID encoding scheme than CLIC for which the original development was done**.
+
+* 2025-10-09 Thomas Madlener ([PR#37](https://github.com/iLCSoft/DDMarlinPandora/pull/37))
+  - Add the default `.clang-format` config from Key4hep and format repository accordingly.
+  - Add pre-commit hooks and CI action to enforce formatting from now on.
+
+* 2025-10-09 Thomas Madlener ([PR#36](https://github.com/iLCSoft/DDMarlinPandora/pull/36))
+  - Update the Key4hep based workflow to use latest releases and nightlies
+
+* 2025-10-09 jmcarcell ([PR#33](https://github.com/iLCSoft/DDMarlinPandora/pull/33))
+  - Add LANGUAGES CXX to disable a check for a C compiler
+
+* 2025-06-04 jmcarcell ([PR#34](https://github.com/iLCSoft/DDMarlinPandora/pull/34))
+  - Fix building with APRILCONTENT ON by not linking to non-existing mlpack libraries
+
+* 2025-05-14 Tanguy Pasquier ([PR#29](https://github.com/iLCSoft/DDMarlinPandora/pull/29))
+  - Add ability to link with new PFA contents : SDHCALContent for SDHCAL specific corrections and APRILContent for APRIL PFA algorithms.
+  - Allow to compile with or without linking to new PFA Contents, default is to build without new contents. 
+  - Add processor option to switch between Pandora and APRIL PFAs.
+
 # v00-13
 
 * 2025-03-05 Archil Durglishvili ([PR#31](https://github.com/iLCSoft/DDMarlinPandora/pull/31))

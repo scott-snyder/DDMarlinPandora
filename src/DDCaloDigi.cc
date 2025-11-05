@@ -1839,7 +1839,6 @@ LCCollection* DDCaloDigi::combineVirtualStripCells(LCCollection* col, bool isBar
       newhit->addMCParticleContribution(hit->getParticleCont(ij), hit->getEnergyCont(ij) * energyNonuniformityScaling,
                                         hit->getTimeCont(ij), hit->getPDGCont(ij));
     }
-    }
   } // loop over hits
 
   // move the hits from the temporary storage to the output collection

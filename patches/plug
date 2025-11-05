@@ -1,6 +1,0 @@
-Bottom: 89256148b30d1991c47a069e2cc8ff83a656899b
-Top:    89256148b30d1991c47a069e2cc8ff83a656899b
-Author: scott snyder <sss@karma>
-Date:   2025-11-04 21:58:42 -0500
-
-Avoid error messages for plug hits.
